@@ -11,7 +11,7 @@ document.getElementById("priority-toggle-btn").onclick = () => {
     priorityPreference *= -1;
 };
 
-let selectedAlgorithm = "sjf";
+let selectedAlgorithm = document.getElementById('algo');
 
 function checkTimeQuantumInput() {
     let timequantum = document.querySelector("#time-quantum").classList;
